@@ -1,0 +1,124 @@
+{
+  "specialities": [
+    {
+      "name": "General Medicine",
+      "description": "Primary diagnosis and care for general acute and chronic conditions, fevers, weakness, and infections.",
+      "mapped_symptoms": [
+        "fever",
+        "high fever",
+        "weakness",
+        "body ache",
+        "headache",
+        "fatigue",
+        "malaise",
+        "mild abdominal pain",
+        "vomiting",
+        "loose motions"
+      ],
+      "department_code": "GEN_MED"
+    },
+    {
+      "name": "Emergency Medicine",
+      "description": "24x7 acute emergency trauma, resuscitation, and life-support care.",
+      "mapped_symptoms": [
+        "severe chest pain",
+        "difficulty breathing",
+        "loss of consciousness",
+        "severe bleeding",
+        "sudden paralysis",
+        "anaphylaxis",
+        "choking"
+      ],
+      "department_code": "EMERG_MED"
+    },
+    {
+      "name": "Cardiology",
+      "description": "Cardiovascular assessment, heart diseases, palpitations, and hypertension.",
+      "mapped_symptoms": [
+        "severe chest pain",
+        "chest tightness",
+        "palpitations",
+        "high blood pressure",
+        "breathlessness on exertion"
+      ],
+      "department_code": "CARDIO"
+    },
+    {
+      "name": "Pulmonology",
+      "description": "Respiratory conditions, asthma, COPD, chronic cough, and lung infections.",
+      "mapped_symptoms": [
+        "difficulty breathing",
+        "cough",
+        "chronic cough",
+        "wheezing",
+        "breathlessness",
+        "cold"
+      ],
+      "department_code": "PULMO"
+    },
+    {
+      "name": "Gastroenterology",
+      "description": "Digestive tract, stomach, liver, and bowel disorders.",
+      "mapped_symptoms": [
+        "severe abdominal pain",
+        "abdominal pain",
+        "persistent vomiting",
+        "vomiting",
+        "loose motions",
+        "diarrhea",
+        "acidity",
+        "jaundice"
+      ],
+      "department_code": "GASTRO"
+    },
+    {
+      "name": "Pediatrics",
+      "description": "Specialized care for newborns, infants, children, and adolescents.",
+      "mapped_symptoms": [
+        "child fever",
+        "infant feeding issues",
+        "pediatric cough",
+        "child rash"
+      ],
+      "department_code": "PEDIAT"
+    },
+    {
+      "name": "Orthopedics",
+      "description": "Bones, joints, spine, ligaments, and musculoskeletal injuries.",
+      "mapped_symptoms": [
+        "joint pain",
+        "back pain",
+        "knee pain",
+        "fracture",
+        "swelling in limbs",
+        "sprain"
+      ],
+      "department_code": "ORTHO"
+    },
+    {
+      "name": "Dermatology",
+      "description": "Skin conditions, allergies, rashes, and cutaneous infections.",
+      "mapped_symptoms": [
+        "skin rash",
+        "itching",
+        "allergy",
+        "red spots",
+        "skin lesion"
+      ],
+      "department_code": "DERMA"
+    },
+    {
+      "name": "Neurology",
+      "description": "Brain, nervous system, chronic migraine, dizziness, and seizures.",
+      "mapped_symptoms": [
+        "loss of consciousness",
+        "dizziness",
+        "severe headache",
+        "migraine",
+        "seizure",
+        "numbness"
+      ],
+      "department_code": "NEURO"
+    }
+  ]
+}

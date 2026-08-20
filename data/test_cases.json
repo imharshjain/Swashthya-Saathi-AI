@@ -1,0 +1,75 @@
+[
+  {
+    "id": "TC_001",
+    "name": "Hinglish Fever & Weakness (Demo Target Case)",
+    "input_message": "Mujhe 3 din se bukhar hai aur weakness bhi hai.",
+    "district": "Khordha",
+    "expected_symptoms": ["fever", "weakness"],
+    "expected_duration": "3 days",
+    "expected_risk_level": "URGENT",
+    "expected_specialty": "General Medicine"
+  },
+  {
+    "id": "TC_002",
+    "name": "Emergency Acute Chest Pain & Breathlessness",
+    "input_message": "I have severe chest pain and difficulty breathing.",
+    "district": "Cuttack",
+    "expected_symptoms": ["severe chest pain", "difficulty breathing"],
+    "expected_risk_level": "EMERGENCY",
+    "expected_specialty": "Emergency Medicine"
+  },
+  {
+    "id": "TC_003",
+    "name": "Routine Cold & Mild Cough",
+    "input_message": "I have mild cold and cough since yesterday.",
+    "district": "Puri",
+    "expected_symptoms": ["cold", "cough"],
+    "expected_risk_level": "ROUTINE",
+    "expected_specialty": "General Medicine"
+  },
+  {
+    "id": "TC_004",
+    "name": "Urgent Gastrointestinal Symptoms",
+    "input_message": "Continuous vomiting and severe abdominal pain from morning.",
+    "district": "Khordha",
+    "expected_symptoms": ["persistent vomiting", "severe abdominal pain"],
+    "expected_risk_level": "URGENT",
+    "expected_specialty": "Gastroenterology"
+  },
+  {
+    "id": "TC_005",
+    "name": "High Fever with Measured Temperature",
+    "input_message": "High fever 103 F and severe headache.",
+    "district": "Ganjam",
+    "expected_symptoms": ["high fever", "headache"],
+    "expected_risk_level": "URGENT",
+    "expected_specialty": "General Medicine"
+  },
+  {
+    "id": "TC_006",
+    "name": "Pediatric Case",
+    "input_message": "My 4-year-old child has high fever and cough.",
+    "district": "Cuttack",
+    "expected_symptoms": ["high fever", "cough"],
+    "expected_risk_level": "URGENT",
+    "expected_specialty": "Pediatrics"
+  },
+  {
+    "id": "TC_007",
+    "name": "Dermatological Complaint",
+    "input_message": "I noticed skin rash and severe itching on my arms.",
+    "district": "Balasore",
+    "expected_symptoms": ["skin rash"],
+    "expected_risk_level": "ROUTINE",
+    "expected_specialty": "Dermatology"
+  },
+  {
+    "id": "TC_008",
+    "name": "Empty Message Edge Case",
+    "input_message": "",
+    "district": "Khordha",
+    "expected_symptoms": [],
+    "expected_risk_level": "ROUTINE",
+    "expected_specialty": "General Medicine"
+  }
+]

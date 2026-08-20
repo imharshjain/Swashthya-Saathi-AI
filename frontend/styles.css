@@ -1,0 +1,185 @@
+/* Swasthya Saathi AI - Custom Government Theme Styling */
+
+:root {
+  --primary-color: #0c2340;
+  --secondary-color: #0d5c75;
+  --accent-teal: #008080;
+  --emergency-red: #c53030;
+  --urgent-amber: #d69e2e;
+  --routine-blue: #2b6cb0;
+  --bg-light: #f7fafc;
+  --card-border: #e2e8f0;
+}
+
+/* Header Container */
+.gov-header {
+  background: linear-gradient(135deg, #0c2340 0%, #1a365d 100%);
+  color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid #f6ad55;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.gov-header h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 0;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.gov-header .subtitle {
+  font-size: 1.05rem;
+  color: #e2e8f0;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+.gov-badge {
+  display: inline-block;
+  background-color: #f6ad55;
+  color: #1a202c;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+/* Disclaimer Bar */
+.disclaimer-bar {
+  background-color: #ebf8ff;
+  border-left: 4px solid #3182ce;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #2b6cb0;
+  margin-bottom: 1.5rem;
+}
+
+/* Result Cards */
+.result-card {
+  background: white;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.result-card h3 {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #edf2f7;
+  padding-bottom: 0.5rem;
+}
+
+/* Triage Banners */
+.triage-banner-emergency {
+  background-color: #fff5f5;
+  border: 2px solid #feb2b2;
+  border-left: 6px solid #e53e3e;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #9b2c2c;
+}
+
+.triage-banner-urgent {
+  background-color: #fffaf0;
+  border: 2px solid #fbd38d;
+  border-left: 6px solid #dd6b20;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #9c4221;
+}
+
+.triage-banner-routine {
+  background-color: #ebf8ff;
+  border: 2px solid #bee3f8;
+  border-left: 6px solid #3182ce;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #2b6cb0;
+}
+
+/* Provider Card */
+.provider-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-top: 3px solid var(--accent-teal);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.provider-card .doc-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 0.25rem;
+}
+
+.provider-card .doc-spec {
+  color: #2c7a7b;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.meta-chip {
+  display: inline-block;
+  background: #edf2f7;
+  color: #4a5568;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.stale-freshness-notice {
+  background-color: #fffaf0;
+  color: #9c4221;
+  border: 1px dashed #dd6b20;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-top: 0.75rem;
+  font-weight: 500;
+}
+
+/* KPI Card */
+.kpi-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.25rem;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.kpi-card .kpi-num {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.kpi-card .kpi-label {
+  font-size: 0.85rem;
+  color: #718096;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 0.35rem;
+}
